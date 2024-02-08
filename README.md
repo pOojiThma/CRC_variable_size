@@ -1,26 +1,26 @@
-# CRC_variable_size
+
 # CRC (Cyclic Redundancy Check) Implementation
-This repository contains a C code implementation of a CRC (Cyclic Redundancy Check) algorithm. CRC is a method used in error detection in digital networks or storage devices where it ensures the integrity of transmitted or stored data. This particular implementation performs CRC encoding, decoding, and checking using binary division.
+### This repository contains a C code implementation of a CRC (Cyclic Redundancy Check) algorithm. CRC is a method used in error detection in digital networks or storage devices where it ensures the integrity of transmitted or stored data. This particular implementation performs CRC encoding, decoding, and checking using binary division.
 
-Features
-CRC Remainder Calculation: The crc_remainder() function calculates the CRC remainder for a given set of data and polynomial.
-CRC Encoding: The crc_encode() function encodes the input data with CRC information.
-CRC Checking: The crc_check() function verifies the integrity of the received data using CRC.
-Customizable Polynomial: The polynomial used for CRC computation is customizable, allowing flexibility in different applications.
+## Features
+### CRC Remainder Calculation: The crc_remainder() function calculates the CRC remainder for a given set of data and polynomial.
+### CRC Encoding: The crc_encode() function encodes the input data with CRC information.
+### CRC Checking: The crc_check() function verifies the integrity of the received data using CRC.
+### Customizable Polynomial: The polynomial used for CRC computation is customizable, allowing flexibility in different applications.
 Usage
-To use the CRC implementation, follow these steps:
+### To use the CRC implementation, follow these steps:
 
-Clone or download the repository to your local machine.
-Compile the code using a C compiler (e.g., gcc).
-Run the compiled executable.
-Ensure you have defined the appropriate input data, polynomial, and CRC size in the main() function before execution.
+### Clone or download the repository to your local machine.
+### Compile the code using a C compiler (e.g., gcc).
+### Run the compiled executable.
+### Ensure you have defined the appropriate input data, polynomial, and CRC size in the main() function before execution.
 
-Implementation Details
-Input Data Size: You can customize the size of the input data by changing the DATA_SIZE macro.
-CRC Size: The size of the CRC is defined by the CRC_SIZE macro.
-Polynomial: The polynomial used for CRC computation is defined in the main() function as crc_polynomial.
-Example
-Here's a simple example demonstrating the usage of the CRC implementation:
+# Implementation Details
+### Input Data Size: You can customize the size of the input data by changing the DATA_SIZE macro.
+### CRC Size: The size of the CRC is defined by the CRC_SIZE macro.
+### Polynomial: The polynomial used for CRC computation is defined in the main() function as crc_polynomial.
+### Example
+### Here's a simple example demonstrating the usage of the CRC implementation:
 
 #c
 
@@ -40,7 +40,6 @@ if (is_valid_crc) {
 } else {
     printf("Invalid\n");
 }
-License
-This CRC implementation is provided under the MIT License.
+
 
 Feel free to customize the README to include any additional information or instructions you think would be helpful for users of your CRC implementatio
