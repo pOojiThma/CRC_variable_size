@@ -1,5 +1,5 @@
 # CRC_variable_size
-#CRC (Cyclic Redundancy Check) Implementation
+# CRC (Cyclic Redundancy Check) Implementation
 This repository contains a C code implementation of a CRC (Cyclic Redundancy Check) algorithm. CRC is a method used in error detection in digital networks or storage devices where it ensures the integrity of transmitted or stored data. This particular implementation performs CRC encoding, decoding, and checking using binary division.
 
 Features
