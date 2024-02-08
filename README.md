@@ -22,7 +22,7 @@ Usage
 ### Example
 ### Here's a simple example demonstrating the usage of the CRC implementation:
 
-#c
+# c
 
 uint8_t input_byte[DATA_SIZE] = {0xFF, 0xFF, 0xFF, 0xFF};
 uint16_t crc_polynomial = 0x107;
